@@ -53,7 +53,7 @@ class MoviesList extends React.Component {
                         onChange={this.handleChange}
                     />
                     <button type="submit">
-                        <i className="fa fa-search" />
+                    Search
                     </button>
                 </form>
                 {moviesList.length > 0 ? (
